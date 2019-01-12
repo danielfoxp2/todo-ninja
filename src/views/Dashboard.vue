@@ -4,10 +4,10 @@
 
         <v-container class="my-5">
             <v-layout row wrap>
-                <v-flex xs12 md6>
+                <v-flex xs12 sm6 md3>
                     <v-btn outline block class="primary">1</v-btn>
                 </v-flex>
-                <v-flex xs12 md6>
+                <v-flex xs12 sm6 md3>
                     <v-btn outline block class="primary">2</v-btn>
                 </v-flex>
             </v-layout>
