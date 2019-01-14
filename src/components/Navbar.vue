@@ -39,6 +39,10 @@
                     </v-avatar>
                     <p class="white--text subheading mt-1">The Punisher</p>
                 </v-flex>
+
+                <v-flex class="mt-4 mb-3">
+                    <Popup/>
+                </v-flex>
             </v-layout>
 
             <v-list>
@@ -56,6 +60,8 @@
 </template>
 
 <script>
+import Popup from './Popup'
+
 export default {
     data() {
         return {
@@ -66,7 +72,8 @@ export default {
                 { icon: 'person', text: 'Team', route: '/team' }
             ]
         }
-    }
+    },
+    components: { Popup }
 }
 </script>
 
